@@ -1,0 +1,36 @@
+#product-container h1{
+    margin-top: 10px;
+    color: #daa520;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-list{
+    max-width: 400px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+    list-style: none;
+}
+
+.product-list li{
+    background: #b8860b;
+    border: 1px solid #8b4513;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product-list li p{
+    font-size: 16px;
+    color:#fff;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.product-list strong{
+    font-size: 16px;
+    color:#fff;
+    margin-top: 5px;
+    line-height: 24px;
+}
