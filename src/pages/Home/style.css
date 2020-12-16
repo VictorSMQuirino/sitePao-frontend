@@ -1,4 +1,4 @@
-#product-container h1{
+#product-container h1 {
     width: 80%;
     margin-top: 10px;
     color: #daa520;
@@ -11,14 +11,15 @@
     border-radius: 5px;
 }
 
-.product-list{
+.product-list {
     max-width: 400px;
     margin: 20px auto 0;
     padding: 0 20px;
     list-style: none;
+    float: none;
 }
 
-.product-list li{
+.product-list li {
     background: #b8860b;
     border: 1px solid #8b4513;
     border-radius: 5px;
@@ -26,16 +27,16 @@
     margin-bottom: 20px;
 }
 
-.product-list li p{
+.product-list li p {
     font-size: 16px;
-    color:#fff;
+    color: #fff;
     margin-top: 5px;
     line-height: 24px;
 }
 
-.product-list strong{
+.product-list strong {
     font-size: 16px;
-    color:#fff;
+    color: #fff;
     margin-top: 5px;
     line-height: 24px;
 }
@@ -80,6 +81,37 @@
     width: 100%;
 }
 
+table{
+    width: 80%;
+    margin: auto;
+}
+
+#descricao{
+    background-color: #daa520;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+#meio img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 200px;
+    border: solid 5px #756c54;
+    border-radius: 5px;
+}
+
+body{
+    background-image: url('../../imagens/fundoGeral.jpg');/*Aqui você coloca o link da sua imagem*/
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #rodape {
     display: flex;
     justify-content: center;
@@ -89,4 +121,26 @@
     
 	/*position: relative;*/
 	bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.imgFundo {
+    /*resizeMode: "cover";
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.1;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;*/
 }

@@ -1,10 +1,12 @@
 import {useState} from "react";
-import Product from './pages/Product'
+import Routes from './routes';
+//import Product from './pages/Product';
 
 function App() {
   return (
     <div className="App">
-      <Product/>
+      <Routes />
+      {/*<Product/>*/}
     </div>
   );
 }

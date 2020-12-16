@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import paoFrances from "../../imagens/paoFrances.jpg";
+import paozinhoDeliciaPaoDeQueijoBaiano from "../../imagens/paozinhoDeliciaPaoDeQueijoBaiano.jpg";
+import paoDeAcucar from "../../imagens/paoDeAcucar.png";
 import rodape from "../../imagens/rodape.jpg";
 import api from '../../services/api';
 import { Link } from "react-router-dom";
@@ -13,6 +16,7 @@ export default function Product() {
     }, [])
     return (
         <div id="product-container">
+
             <div id="menu">
                 <h1>
                     <Link /*to={`/listProduto`}*/>Cadastro</Link>
@@ -25,8 +29,25 @@ export default function Product() {
                 </h1>
             </div>
             <div id="meio">
-                <h1 id="titulo1">Produtos</h1>
-                <ul className="product-list">
+                <h1 id="titulo1">Promoções</h1>
+                <table>
+                    <tr height="20px">
+                    </tr>
+                    <tr height="40%">
+                        <td > <img src={paoFrances} /> </td>
+                        <td > <img src={paozinhoDeliciaPaoDeQueijoBaiano} /> </td>
+                        <td > <img src={paoDeAcucar} /> </td>
+                    </tr>
+                    <tr height="40%">
+                        <td id="descricao"> <strong>Pão Frances</strong></td>
+                        <td id="descricao"> <strong>Pãozinho Delícia - Pão de Queijo Baiano</strong> </td>
+                        <td id="descricao"> <strong>Pão de Açúcar</strong> </td>
+                    </tr>
+                    <tr height="20px">
+                    </tr>
+                    
+                </table>
+                {/*<ul className="product-list">
                     {products.map(product => (
                         <li key={product.id}>
                             <strong>{product.name}</strong>
@@ -35,9 +56,8 @@ export default function Product() {
                             <p>R$ {product.preco}</p>
                         </li>
                     ))}
-                </ul>
+                </ul>*/}
             </div>
-
             <div id="rodape">
                 <img src={rodape} />
             </div>
