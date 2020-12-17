@@ -62,7 +62,7 @@ export default function Profile() {
                     <Link to={`/listProduto`}>Produtos</Link>
                 </h1>
                 <h1>
-                    <Link /*to={`/listProduto`}*/>Sacola <RiShoppingBagFill id="iconLog" /></Link>
+                    {<Link to={`/sacola`}>Sacola <RiShoppingBagFill id="iconLog" /></Link>}
                 </h1>
                 <h1>
                     <Link /*to={`/listProduto`}*/>Login <IoLogIn id="iconLog" /></Link>
