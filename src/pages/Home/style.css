@@ -139,8 +139,8 @@ body{
 
 
 
-.imgFundo {
-    /*resizeMode: "cover";
+/*.imgFundo {
+    resizeMode: "cover";
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -148,5 +148,5 @@ body{
     opacity: 0.1;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-position: center;*/
-}
+    background-position: center;
+}*/
