@@ -13,5 +13,28 @@ header#main-header{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
+    /*opacity: 0.4;*/
+    
     margin: auto;
+}
+
+#div1{
+    position: absolute;
+    left: 11%;
+    top: 28%; /* 210px */
+    font-size: 60px;
+    background-color: rgba(240, 211, 157, 0.5); /*#8a794f daa520 */ 
+    /* align-self: center; */
+    border-radius: 5%;
+    /* margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; */
+    
+}
+#iconHome{
+    color: #202020;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
 }

@@ -3,6 +3,8 @@ import paoFrances from "../../imagens/paoFrances.jpg";
 import paozinhoDeliciaPaoDeQueijoBaiano from "../../imagens/paozinhoDeliciaPaoDeQueijoBaiano.jpg";
 import paoDeAcucar from "../../imagens/paoDeAcucar.png";
 import rodape from "../../imagens/rodape.jpg";
+import { IoLogIn } from 'react-icons/io5';
+import { RiShoppingBagFill } from 'react-icons/ri';
 import api from '../../services/api';
 import { Link } from "react-router-dom";
 import './style.css';
@@ -19,13 +21,16 @@ export default function Product() {
 
             <div id="menu">
                 <h1>
-                    <Link /*to={`/listProduto`}*/>Cadastro</Link>
+                    <Link to={`/cadastro`}>Cadastrar-se</Link>
                 </h1>
                 <h1>
                     <Link to={`/listProduto`}>Produtos</Link>
                 </h1>
                 <h1>
-                    <Link /*to={`/listProduto`}*/>Sacola</Link>
+                    <Link /*to={`/listProduto`}*/>Sacola <RiShoppingBagFill id="iconLog" /></Link>
+                </h1>
+                <h1>
+                    <Link /*to={`/listProduto`}*/>Login <IoLogIn id="iconLog" /></Link>
                 </h1>
             </div>
             <div id="meio">
